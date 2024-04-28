@@ -16,7 +16,7 @@ import ru.fafurin.lesson7.repository.LocationRepository;
 
 @Service
 @AllArgsConstructor
-public class CharacterDBService {
+public class CharacterService {
 
     private final Environment environment;
     private final CharacterRepository characterRepository;

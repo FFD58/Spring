@@ -12,7 +12,7 @@ import ru.fafurin.lesson7.repository.EpisodeRepository;
 
 @Service
 @AllArgsConstructor
-public class EpisodeDBService {
+public class EpisodeService {
 
     private final ObjectMapper mapper;
     private final Environment environment;

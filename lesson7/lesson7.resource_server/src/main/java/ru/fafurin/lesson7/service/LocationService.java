@@ -12,7 +12,7 @@ import ru.fafurin.lesson7.repository.LocationRepository;
 
 @Service
 @AllArgsConstructor
-public class LocationDBService {
+public class LocationService {
 
     private final ObjectMapper mapper;
     private final Environment environment;

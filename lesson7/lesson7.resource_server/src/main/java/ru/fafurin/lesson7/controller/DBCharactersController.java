@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import ru.fafurin.lesson7.model.Characters;
 import ru.fafurin.lesson7.repository.CharacterRepository;
-import ru.fafurin.lesson7.service.CharacterDBService;
-import ru.fafurin.lesson7.service.EpisodeDBService;
-import ru.fafurin.lesson7.service.LocationDBService;
+import ru.fafurin.lesson7.service.CharacterService;
+import ru.fafurin.lesson7.service.EpisodeService;
+import ru.fafurin.lesson7.service.LocationService;
 
 import java.util.List;
 
@@ -20,9 +20,9 @@ import java.util.List;
 @AllArgsConstructor
 public class DBCharactersController {
 
-    private CharacterDBService characterDBService;
-    private LocationDBService locationDBService;
-    private EpisodeDBService episodeDBService;
+    private CharacterService characterDBService;
+    private LocationService locationDBService;
+    private EpisodeService episodeDBService;
 
     private CharacterRepository characterRepository;
 
