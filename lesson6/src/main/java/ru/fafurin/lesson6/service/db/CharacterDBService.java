@@ -1,4 +1,4 @@
-package ru.fafurin.lesson6.service;
+package ru.fafurin.lesson6.service.db;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

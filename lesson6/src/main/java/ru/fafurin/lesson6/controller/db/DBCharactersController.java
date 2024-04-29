@@ -1,4 +1,4 @@
-package ru.fafurin.lesson6.controller.rest;
+package ru.fafurin.lesson6.controller.db;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import lombok.AllArgsConstructor;
@@ -6,9 +6,10 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import ru.fafurin.lesson6.service.CharacterDBService;
-import ru.fafurin.lesson6.service.EpisodeDBService;
-import ru.fafurin.lesson6.service.LocationDBService;
+
+import ru.fafurin.lesson6.service.db.CharacterDBService;
+import ru.fafurin.lesson6.service.db.EpisodeDBService;
+import ru.fafurin.lesson6.service.db.LocationDBService;
 
 @RestController
 @AllArgsConstructor
