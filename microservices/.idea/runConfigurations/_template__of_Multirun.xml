@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="true" type="Multirun" editBeforeRun="true" separateTabs="false" reuseTabsWithFailures="false" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0.0">
+    <runConfiguration name="EurekaServerApplication" type="Application" />
+    <runConfiguration name="InventoryServiceApplication" type="Application" />
+    <runConfiguration name="OrderServiceApplication" type="Application" />
+    <runConfiguration name="ProductServiceApplication" type="Application" />
+    <runConfiguration name="ApiGatewayApplication" type="Application" />
+    <method v="2" />
+  </configuration>
+</component>
